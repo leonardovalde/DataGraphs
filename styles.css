@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.rowDiv{
+    display: flex;
+    flex-direction: row;
+}
+.colDiv{
+    
+    height: 400px;
+    margin: 5px;
+    border: 1px gray solid;
+    padding: 10px;
+    width: 50%;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
