@@ -48,6 +48,7 @@ function carrerData(rows) {
   const fileInput = document.getElementById("medidas");
   fileInput.innerHTML += tablaHTML;
 }
+
 function heightData(rows) {
   const ageColumn = rows.map((row) => {
     const columns = row.split(";");
